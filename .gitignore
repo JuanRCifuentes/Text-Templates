@@ -1,2 +1,5 @@
 .DS_Store
 workspace.code-workspace
+Templates/*
+File_Creators/*
+Created_Files/*
