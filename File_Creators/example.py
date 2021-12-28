@@ -1,4 +1,4 @@
-import file_from_template as fft
+from file_from_template import create
 
 def example():
     folder = 'Created_Files/Test_Template'
@@ -12,7 +12,7 @@ def example():
 
     template = 'Templates/test_template.txt'
 
-    fft.create(template, data, name, folder)
+    create(template, data, name, folder)
 
 if __name__ == '__main__':
     example()
